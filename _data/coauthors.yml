@@ -1,34 +1,35 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ciabattoni":
+  - firstname: ["Agata", "A."]
+    url: https://www.logic.at/staff/agata/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Olivetti":
+  - firstname: ["Nicola", "N."]
+    url: https://pageperso.lis-lab.fr/nicola.olivetti/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Parent":
+  - firstname: ["Xavier", "X."]
+    url: https://xavierparent.co.uk/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Ramanayake":
+  - firstname: ["Revantha", "D.R.S.", "R."]
+    url: https://www.rug.nl/staff/d.r.s.ramanayake
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Komendantskaya":
+  - firstname: ["Ekaterina", "E."]
+    url: https://www.macs.hw.ac.uk/~ek19/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Basold":
+  - firstname: ["Henning", "H."]
+    url: https://liacs.leidenuniv.nl/~basoldh/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Eisenhofer":
+  - firstname: ["Clemens", "C."]
+    url: https://informatics.tuwien.ac.at/people/clemens-eisenhofer
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Lorini":
+  - firstname: ["Emiliano", "E."]
+    url: https://www.irit.fr/~Emiliano.Lorini/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Liu":
+  - firstname: ["Xinghan", "X."]
+    url: https://www.kr.tuwien.ac.at/staff/386138-xinghan-liu/

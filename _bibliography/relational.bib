@@ -1,0 +1,79 @@
+---
+---
+
+@inproceedings{FLOPS22,
+  abbr         = {FLOPS},
+  confname     = {16th Int. Symp. on Functional and Logic Programming},
+  place        = {online},
+
+  author       = {Dmitry Rozplokhas and
+                  Dmitry Boulytchev},
+  editor       = {Michael Hanus and
+                  Atsushi Igarashi},
+  title        = {Scheduling Complexity of Interleaving Search},
+  booktitle    = {Proceedings of the 16th International Symposium on Functional
+                  and Logic Programming, {FLOPS} 2022, Kyoto, Japan,
+                  May 10-12, 2022},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13215},
+  pages        = {152--170},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/978-3-030-99461-7\_9},
+  doi          = {10.1007/978-3-030-99461-7\_9},
+
+  bibtex_show  = {true},
+  pdf          = {FLOPS_2022.pdf},
+  abstract     = {miniKanren is a lightweight embedded language for logic and relational programming. Many of its useful features come from a distinctive search strategy, called interleaving search. However, with interleaving search conventional ways of reasoning about the complexity and performance of logical programs become irrelevant. We identify an important key component -- scheduling -- which makes the reasoning for miniKanren so different, and present a semi-automatic technique to estimate the scheduling impact via symbolic execution for a reasonably wide class of programs.}
+}
+
+@inproceedings{APLAS20,
+  abbr         = {APLAS},
+  confname     = {18th Asian Symp. on Programming Languages and Systems},
+  place        = {online},
+
+  author       = {Dmitry Rozplokhas and
+                  Andrey Vyatkin and
+                  Dmitry Boulytchev},
+  editor       = {Bruno C. d. S. Oliveira},
+  title        = {Certified Semantics for Relational Programming},
+  booktitle    = {Proceedings of the 18th Asian Symposium on Programming Languages
+                  and Systems, {APLAS} 2020, Fukuoka, Japan,
+                  November 30 - December 2, 2020},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {12470},
+  pages        = {167--185},
+  publisher    = {Springer},
+  year         = {2020},
+  url          = {https://doi.org/10.1007/978-3-030-64437-6\_9},
+  doi          = {10.1007/978-3-030-64437-6\_9},
+
+  bibtex_show  = {true},
+  pdf          = {APLAS_2020.pdf},
+  abstract     = {We present a formal study of semantics for the relational programming language miniKanren. First, we formulate a denotational semantics which corresponds to the minimal Herbrand model for definite logic programs. Second, we present operational semantics which models interleaving, the distinctive feature of miniKanren implementation, and prove its soundness and completeness w.r.t. the denotational semantics. Our development is supported by a Coq specification, from which a reference interpreter can be extracted. We also derive from our main result a certified semantics (and a reference interpreter) for SLD resolution with cut and prove its soundness.}
+}
+
+@inproceedings{PPDP18,
+  abbr         = {PPDP},
+  confname     = {20th Int. Symp. on Principles and Practice of Declarative Programming},
+  place        = {Frankfurt am Main, Germany},
+
+  author       = {Dmitry Rozplokhas and
+                  Dmitry Boulytchev},
+  editor       = {David Sabel and
+                  Peter Thiemann},
+  title        = {Improving Refutational Completeness of Relational Search via Divergence
+                  Test},
+  booktitle    = {Proceedings of the 20th International Symposium on Principles and
+                  Practice of Declarative Programming, {PPDP} 2018, Frankfurt am Main,
+                  Germany, September 03-05, 2018},
+  pages        = {18:1--18:13},
+  publisher    = {{ACM}},
+  year         = {2018},
+  url          = {https://doi.org/10.1145/3236950.3236958},
+  doi          = {10.1145/3236950.3236958},
+
+  bibtex_show  = {true},
+  pdf          = {PPDP_2018.pdf},
+  abstract     = {We describe a search optimization technique for implementation of relational programming language miniKanren which makes more queries converge. Specifically, we address the problem of conjunction non-commutativity. Our technique is based on a certain divergence criterion that we use to trigger a dynamic reordering of conjuncts. We present a formal semantics of a miniKanren-like language and prove that our optimization does not compromise already converging programs, thus, being a proper improvement. We also present the prototype implementation of the improved search and demonstrate its application for a number of realistic specifications.}
+}
