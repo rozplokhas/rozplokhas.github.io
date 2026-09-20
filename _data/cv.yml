@@ -1,10 +1,10 @@
 - title: Academic and professional appointments
   type: time_table
   contents:
-    - title: University assistant (postdoctoral researcher)
+    - title: Postdoc researcher
       institution: TU Wien, Austria
       year: 2026–present
-    - title: University assistant (postdoctoral researcher)
+    - title: Predoc researcher
       institution: TU Wien, Austria
       year: 2022–2026
     - title: Researcher
@@ -15,14 +15,14 @@
   type: time_table
   contents:
     - title: PhD in Computer Science
-      institution: TU Wien, Vienna, Austria
+      institution: TU Wien, Austria
       year: 2026
       description:
         - "MSCA COFUND doctoral programme LogiCS@TUWien (Logical Methods in Computer Science)."
         - "Supervisor: Agata Ciabattoni"
         - "Thesis title: Analytic Methods for Logics of Conditional Reasoning."
     - title: MSc in Applied Mathematics and Informatics
-      institution: Higher School of Economics, Saint Petersburg, Russia
+      institution: Higher School of Economics, Russia
       year: 2020
       description:
         - "Specialization: Programming Languages."
@@ -65,7 +65,7 @@
   type: time_table
   contents:
     - title: "Co-supervisor of Christian Köll's master's thesis"
-      institution: TU Wien
+      institution: TU Wien, Austria
       year: 2025
       description:
         - "Thesis title: SMT-Based Automated Reasoning for Åqvist’s Deontic Logic."
