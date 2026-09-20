@@ -1,64 +1,88 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Dmitry Rozplokhas
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+- title: Academic and professional appointments
+  type: time_table
+  contents:
+    - title: University assistant (postdoctoral researcher)
+      institution: TU Wien, Austria
+      year: 2026–present
+    - title: University assistant (postdoctoral researcher)
+      institution: TU Wien, Austria
+      year: 2022–2026
+    - title: Researcher
+      institution: JetBrains Research, Russia
+      year: 2016–2022
 
 - title: Education
   type: time_table
   contents:
-    - title: M.Sc. in Applied Mathematics and Informatics  
-      institution: Higher School of Economics, St Petersburg, Russia
+    - title: PhD in Computer Science
+      institution: TU Wien, Vienna, Austria
+      year: 2026
+      description:
+        - "MSCA COFUND doctoral programme LogiCS@TUWien (Logical Methods in Computer Science)."
+        - "Supervisor: Agata Ciabattoni"
+        - "Thesis title: Analytic Methods for Logics of Conditional Reasoning."
+    - title: MSc in Applied Mathematics and Informatics
+      institution: Higher School of Economics, Saint Petersburg, Russia
       year: 2020
-    - title: B.Sc. in Applied Mathematics and Physics  
-      institution: St Petersburg Academic University of the Russian Academy of Sciences
+      description:
+        - "Specialization: Programming Languages."
+        - "Supervisor: Dmitry Boulytchev."
+        - "Thesis title: Certified Semantics of MiniKanren programming language."
+    - title: BSc in Applied Mathematics and Physics
+      institution: St Petersburg Academic University of the Russian Academy of Sciences, Russia
       year: 2018
+      description:
+        - "Specialization: Programming Languages."
+        - "Supervisor: Dmitry Boulytchev."
+        - "Thesis title: Relational search with better refutational ability."
 
-- title: Experience
+- title: Awards
   type: time_table
   contents:
-#    - title: Professor of Theoretical Physics
-#      institution: Institute for Advanced Study, Princeton University
-#      year: 1933 - 1955
-#      description:
-#        - Description 1.
-#        - Description 2.
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
-#    - title: Visiting Professor
-#      institution: California Institute of Technology, Pasadena, California, US
-#      year: 1933
-#      description:
-#        - Description 1.
-#        - Description 2.
-    - title: University Assistant
+    - year: 2025
+      items:
+        - "Martin Purvis Student Best Paper Award, PRIMA 2025."
+        - "Best Student Paper Prize and Runner-up Best Paper Prize, JELIA 2025."
+    - year: 2023
+      items:
+        - "Ray Reiter Best Paper Prize, KR 2023."
+
+- title: Research visits
+  type: time_table
+  contents:
+    - title: Research stay
+      institution: Institut de Recherche en Informatique de Toulouse (IRIT), Toulouse, France
+      year: Dec 2024–Jan 2025
+      description:
+        - "Host: Emiliano Lorini."
+    - title: Research stay
+      institution: Lab for AI and Verification, Heriot-Watt University, Edinburgh, UK
+      year: Mar–Jun 2019
+      description:
+        - "Host: Ekaterina Komendantskaya."
+
+- title: Student supervision
+  type: time_table
+  contents:
+    - title: "Co-supervisor of Christian Köll's master's thesis"
       institution: TU Wien
-      year: 2022 - now
-    - title: Researcher
-      institution: JetBrains Research, Programming Langues and Tools Lab
-      year: 2016 - 2022
-      # description: 
+      year: 2025
+      description:
+        - "Thesis title: SMT-Based Automated Reasoning for Åqvist’s Deontic Logic."
+        - "Main supervisor: Agata Ciabattoni."
 
-# - title: Research Interests
-#   type: nested_list
-#   contents:
-#     - title: Conditional Logic
-#     - title: Structural Proof Theory
-
-
-#     - title: Non-monotonic Reasoning
-#     - title: Modal Logic
-# #      items: 
-# #        - Description 1.
-# #        - Description 2.
-#     - title: Structural Proof Theory
-#     - title: Non-monotonic Reasoning
-# #      items:
-# #        - Description 1.
-# #        - Description 2.
+- title: Academic service
+  type: nested_list
+  contents:
+    - title: Reviewing and subreviewing
+      items:
+        - Journal of Applied Non-Classical Logics
+        - ACM/IEEE Symposium on Logic in Computer Science (LICS)
+        - EACSL Annual Conference on Computer Science Logic (CSL)
+        - International Conference on Advances in Modal Logic (AiML)
+        - International Conference on Deontic Logic and Normative Systems (DEON)
+        - International Conference on Logic, Rationality and Interaction (LORI)
+    - title: Organizing committee
+      items:
+        - "DEON 2025, Vienna, Austria."
+        - "RISE-MSCA project MOSAIC workshop, Vienna, Austria, 2025."
